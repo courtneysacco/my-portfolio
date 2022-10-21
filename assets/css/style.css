@@ -12,7 +12,7 @@ body {
 
 /* Adding styles to <header> */
 header {
-    padding:15px 30px;
+    padding:25px 30px;
     background-color:plum;
     display:flex;
     justify-content:space-between;
@@ -38,11 +38,81 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 40px;
+    margin: 0 30px;
     font-weight:bold;
     font-size:larger;
     color:darkslateblue;
     text-decoration:underline;
     border-bottom: 4px;
     padding-bottom: 4px;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Adding style to banner image */
+.banner{
+    height: 350px;
+    background-image: url=("../images/banner.jpeg");
+    background-size:cover;
+    background-position: center;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    position:relative;
+    width: 100%;
+    
+}
+
+.banner h2 {
+    font-style:italic;
+    font-size: 30px;
+    color:darkslateblue;
+    margin-top: 300px;
+    background-color:plum;
+}
+
+/* Adding style to about me and work */
+.about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 40px;
+    width: 90%;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: left;
+}
+
+.section-title {
+    font-size: 30px;
+    font-family:fantasy;
+    color:darkslateblue;
+    margin: 0 0 0 70px;
+    width: 0%;
+}
+
+.info {
+    flex: 2 25;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.border1 {
+    border-right: 1px solid black;
+    height: 120px;
+    flex: 0 3%;
+}
+
+.info p {
+    color:darkslateblue;
+    font-size: 23px;
+    text-align: left;
+    line-height: 1.2;
+    margin-left: 25px;
+    width: 100%;
 }
