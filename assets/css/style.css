@@ -1,0 +1,24 @@
+:root {
+    --primary-color:#fff8dc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    color:darkslateblue;
+    font-family:'Times New Roman', Times, serif;
+    background-color:aliceblue;
+}
+
+/* Adding styles to <header> */
+header {
+    padding:15px 30px;
+    background-color:plum;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
