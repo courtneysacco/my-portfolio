@@ -65,3 +65,38 @@ li {
     display: inline-block;
     margin-left: 25px;
 }
+
+.avatar {
+    height: 400px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+/* Grid */
+
+.Grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+    padding-bottom: 50px;
+    width: 90vw;
+    padding-top: 20px;
+}
+
+.header-title {
+    font-family: var(--Trebuchet);
+    color: var(--purple);
+    font-size: 28px;
+    min-height: 50px;
+    padding-right: 15px;
+    border-right: 4px solid var(--plum);
+    text-align: right;
+}
+
+
+
+
+
