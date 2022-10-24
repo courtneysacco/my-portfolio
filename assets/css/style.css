@@ -96,7 +96,69 @@ li {
     text-align: right;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* About Me */
+
+.About-Me-Desc {
+    padding-top: 15px;
+    font-family: var(--Trebuchet);
+    color: black;
+    font-size: 18px;
+}
 
 
+.project-grid {
+    display: grid;
+    grid-template-areas:
+       'header header'
+       'main right'
+       'main2 right2';
+    gap: 10px;
+    padding-left: 20px;   
+}
 
 
+.proj1, .proj2, .proj3, .prog4, .proj5 {
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    border: solid 5px var(--purple);
+    position: relative;
+}
+
+.proj1 {
+    grid-area: header;
+    background-image: url("../images/horiseon-2.png");
+    height: 500px;
+}
+
+.proj2 {
+    grid-area: main;
+    background-image: url("../images/placeholder-image.png");
+}
+
+.proj3 {
+    grid-area: right;
+    background-image: url("../images/placeholder-image.png");
+}
+
+.proj4 {
+    grid-area: main2;
+    background-image: url("../images/placeholder-image.png");
+}
+
+.proj5 {
+    grid-area: right2;
+    background-image: url("../images/placeholder-image.png");
+}
+
+.proj1:hover, .proj2:hover, .proj3:hover, .proj4.hover, .proj5:hover {
+    opacity: 0.5;
+}
