@@ -33,4 +33,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # Links
 
-<a href=" https://courtneysacco.github.io/my-portfolio/" target="_blank">Deployed Application</a>
+Deployed App:  https://courtneysacco.github.io/my-portfolio/
